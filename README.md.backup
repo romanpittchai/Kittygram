@@ -420,10 +420,3 @@ sudo certbot --nginx
 
 - Reload Nginx configuration `sudo systemctl reload nginx`
 
-## Project author
--------------
-
-_Bogatyrev Roman_
-
-
-> ****Note:_*** _The project uses the MIT License.
