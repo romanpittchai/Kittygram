@@ -426,4 +426,4 @@ sudo certbot --nginx
 _Bogatyrev Roman_
 
 
-> ****Note:_*** _The project uses the MIT License.
+> ***_Note:_*** _The project uses the MIT License._
