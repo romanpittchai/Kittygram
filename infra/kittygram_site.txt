@@ -1,0 +1,5 @@
+IP: 158.160.72.230;
+name_taski: https://ololo.hopto.org/;
+name_kittygram: https://ololo.dynnamn.ru/;
+login: admin;
+password: Wj'm%:Y]PpGa26h;
