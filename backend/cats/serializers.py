@@ -64,14 +64,19 @@ class CatSerializer(serializers.ModelSerializer):
         return dt.datetime.now().year - obj.birth_year
     
     def create(self, validated_data):
-        achievements = validated_data.pop('achievements')
+        achievements = None
+        if 'achievements' in validated_data:
+            achievements = validated_data.pop('achievements')
+        
         cat = Cat.objects.create(**validated_data)
-        for achievement in achievements:
-            current_achievement, status = Achievement.objects.get_or_create(
-                **achievement
+    
+        if achievements is not None:
+            for achievement in achievements:
+                current_achievement, status = Achievement.objects.get_or_create(
+                    **achievement
                 )
-            AchievementCat.objects.create(
-                achievement=current_achievement, cat=cat
+                AchievementCat.objects.create(
+                    achievement=current_achievement, cat=cat
                 )
         return cat
     
