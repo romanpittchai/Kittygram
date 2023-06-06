@@ -58,7 +58,7 @@ _рус_
 -------------
 
 - Установить на сервер `Node.js` командами `curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash - &&\ sudo apt-get install -y nodejs`
-- Установить зависимости frontend приложения. Из директории `<ваш проект>/frontend/` выполнить команду: ``npm i`
+- Установить зависимости frontend приложения. Из директории `<ваш проект>/frontend/` выполнить команду: `npm i`
 
 ## Установка и запуск Gunicorn
 -------------
@@ -426,4 +426,4 @@ sudo certbot --nginx
 _Bogatyrev Roman_
 
 
-> ****Note:_*** _The project uses the MIT License.
+> ***_Note:_*** _The project uses the MIT License._

@@ -58,7 +58,7 @@ _рус_
 -------------
 
 - Установить на сервер `Node.js` командами `curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash - &&\ sudo apt-get install -y nodejs`
-- Установить зависимости frontend приложения. Из директории `<ваш проект>/frontend/` выполнить команду: ``npm i`
+- Установить зависимости frontend приложения. Из директории `<ваш проект>/frontend/` выполнить команду: `npm i`
 
 ## Установка и запуск Gunicorn
 -------------
@@ -274,7 +274,7 @@ This project was created as part of a training course, but it supports all the n
 -------------
 
 - Install `Node.js` on the server with `curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash - &&\ sudo apt-get install -y nodejs`
-- Install frontend application dependencies. From the directory `<your project>/frontend/` run the command: ``npm i`
+- Install frontend application dependencies. From the directory `<your project>/frontend/` run the command: `npm i`
 
 ## Installing and running Gunicorn
 -------------
